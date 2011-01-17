@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'sinatra'
+#gem 'active_record'
 
 gem 'geoip'
 #gem 'hpricot', '0.8.2' # 0.8.3 bug

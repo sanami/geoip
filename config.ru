@@ -1,5 +1,5 @@
 require 'sinatra'
-#require 'active_record'
+require 'active_record'
 require 'geoip'
 
 require 'app'
