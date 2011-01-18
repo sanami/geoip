@@ -1,13 +1,12 @@
 source 'http://rubygems.org'
 
 gem 'sinatra'
-#gem 'active_record'
-
+gem 'activerecord'
 gem 'geoip'
+gem 'haml'
 #gem 'hpricot', '0.8.2' # 0.8.3 bug
 #gem 'nokogiri'
 #gem 'mechanize'
-gem 'haml'
 #gem 'facets' # Conflicts with Rails 3.0.3
 
 # Bundle gems for the local environment. Make sure to

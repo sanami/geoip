@@ -1,10 +1,9 @@
-require 'sinatra'
-require 'active_record'
-require 'geoip'
+require 'bundler'
+Bundler.require
 
-require 'app'
+require 'app.rb'
 
-dbconfig = YAML.load(File.read('config/database.yml'))
-ActiveRecord::Base.establish_connection dbconfig['production']
+#dbconfig = YAML.load(File.read('config/database.yml'))
+#ActiveRecord::Base.establish_connection dbconfig['production']
 
 run Sinatra::Application

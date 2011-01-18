@@ -1,4 +1,3 @@
-require 'haml'
 set :haml, :format => :html5 # default Haml format is :xhtml
 
 $geoip ||= GeoIP.new('db/GeoIP.dat')
